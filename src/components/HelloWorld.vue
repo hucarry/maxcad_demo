@@ -8,7 +8,7 @@ onMounted(() => {
     locateFile: (fileName) => {
       return new URL(`../../node_modules/mxcad/dist/wasm/${mode}/${fileName}`, import.meta.url).href
     },
-    fileUrl: new URL("../../public/789.mxweb", import.meta.url).href,
+    fileUrl: new URL("../../public/123.mxweb", import.meta.url).href,
     fontspath: new URL("../../node_modules/mxcad/dist/fonts", import.meta.url).href,
   })
 })
